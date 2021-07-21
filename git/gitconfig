@@ -1,0 +1,29 @@
+[user]
+	name = Justice Dundas
+	email = justice.dundas@hotmail.com
+[core]
+	editor = vim
+	autocrlf = input
+[alias]
+	co = checkout
+	dw = diff --word-diff
+	fa = fetch --all --tags --prune
+	lg = log --decorate --all --oneline --graph
+	sd = diff --staged
+	sdw = diff --staged --word-diff
+	ss = status
+[merge]
+	tool = vimdiff
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[gitflow "prefix"]
+	feature = feature/
+	bugfix = bugfix/
+	release = release/
+	hotfix = hotfix/
+	support = support/
+	versiontag = v
+[pull]
+	ff = only
